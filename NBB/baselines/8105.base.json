@@ -1,42 +1,126 @@
 {
-		"IC0":{
-				"value":3.4000003000000008,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":2.0110808481455962,
-				"errortype":"std"
-				},
-		"IC1":{
-				"value":9.0000036,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":4.2947028612800366,
-				"errortype":"std"
-				},
-		"IC2":{
-				"value":120.55614444444444,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":5.1505646943104955,
-				"errortype":"std"
-				},
-		"IC3":{
-				"value":0,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":0,
-				"errortype":"std"
-				},
-		"FC":{
-				"value":-0.0030548638888888893,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":3.8787060063391143E-5,
-				"errortype":"std"
-				}
-		}
+    "FC": {
+        "error": 3.8787060063391143e-05,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": -0.0030548638888888893
+    },
+    "IC0": {
+        "error": 2.011080848145596,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 3.4000003000000008
+    },
+    "IC1": {
+        "error": 4.294702861280037,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 9.0000036
+    },
+    "IC2": {
+        "error": 5.1505646943104955,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 120.55614444444444
+    },
+    "IC3": {
+        "error": 0,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 0
+    },
+    "S101IC0-": {
+        "error": 0.6359595975752028,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 10,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 3.400000286102295
+    },
+    "S101IC1-": {
+        "error": 1.3581042433948642,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 10,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 9.000003433227539
+    },
+    "S101IC2-": {
+        "error": 1.716854755482391,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 9,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            9
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 120.55614725748698
+    },
+    "S101IC3-": {
+        "error": 0.0,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 0,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.0
+    }
+}
