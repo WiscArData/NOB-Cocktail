@@ -1,42 +1,119 @@
 {
-		"IC0":{
-				"value":23.111132222222224,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":2.2047949640146687,
-				"errortype":"std"
-				},
-		"IC1":{
-				"value":7.6666692222222217,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":2.5000018833344293,
-				"errortype":"std"
-				},
-		"IC2":{
-				"value":45.100082,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":6.4713298994372961,
-				"errortype":"std"
-				},
-		"IC3":{
-				"value":0.1111111111111111,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":0.33333333333333343,
-				"errortype":"std"
-				},
-		"FC":{
-				"value":-0.0028871076999999997,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":3.8962804453734987E-5,
-				"errortype":"std"
-				}
-		}
+    "FC": {
+        "error": 3.896280445373499e-05,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": -0.0028871076999999997
+    },
+    "IC0": {
+        "error": 2.2047949640146687,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 23.111132222222224
+    },
+    "IC1": {
+        "error": 2.5000018833344293,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 7.666669222222222
+    },
+    "IC2": {
+        "error": 6.471329899437296,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 45.100082
+    },
+    "IC3": {
+        "error": 0.3333333333333334,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 0.1111111111111111
+    },
+    "S101IC0-": {
+        "error": 0.7349317608024737,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 9,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            9
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 23.111131456163193
+    },
+    "S101IC1-": {
+        "error": 0.8333339320292087,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 9,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            1
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 7.666669103834364
+    },
+    "S101IC2-": {
+        "error": 2.046413965452308,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 10,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 45.10008201599121
+    },
+    "S101IC3-": {
+        "error": 0.1111111111111111,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 9,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            1
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.1111111111111111
+    }
+}
